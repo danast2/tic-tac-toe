@@ -5,7 +5,7 @@ from sys import exit
 #проверяет все возможные варианты выигрыша игрока
 def win(mas,sign):
     zeroes=0
-    #проходимя по рядам в массиве
+    #проходимся по рядам в массиве
     for row in mas:
         #считаем нули в ряду
         zeroes+=row.count(0)
